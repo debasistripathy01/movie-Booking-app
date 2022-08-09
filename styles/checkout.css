@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+#navbar{
+    width: 98%;
+    height: auto;
+    margin: auto;
+    border: 1px solid red;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    
+}
+#wallet{
+    text-align: center;
+    flex-direction: row-reverse;
+    margin: 2%;
+    display: flex;
+}
+
+#user-detail{
+    width: 60%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    margin-top: 4%;
+    /* border: 1px solid teal; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#user-detail>input{
+    width: 100%;
+    margin: auto;
+    height: 50px;
+
+}
+#user-details>button{
+    width: 30%;
+    height: 40px;
+    margin: auto;
+    justify-content: center;
+    font-size: 17px;
+}
+
+#movies{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(3,1fr) ;
+
+}
+
+.movie_tabs{
+    width: 80%;
+    height: 60%;
+    /* display: flex; */
+    justify-content: center;
+    margin: auto;
+
+}
+
+.book_now{
+    width: 30%;
+    height: 40px;
+    margin: auto;
+    justify-content: center;
+    font-size: 17px;
+}
+.book_now>img{
+    cursor: pointer;
+}
+.book_now:hover{
+    background-color: aqua;
+    cursor: pointer;
+}
